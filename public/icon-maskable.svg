@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="50%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#115e59" />
+    </linearGradient>
+    <linearGradient id="crossGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0fdfa" />
+    </linearGradient>
+    <filter id="shadowMask" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#042f2e" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Full bleed solid background extending to outer boundaries -->
+  <rect width="512" height="512" fill="url(#bgGradMask)" />
+  
+  <!-- Safe zone inner container (80% circle) -->
+  <g transform="translate(51, 51) scale(0.8)">
+    <circle cx="256" cy="256" r="180" fill="#134e4a" opacity="0.6" filter="url(#shadowMask)" />
+
+    <!-- Medical White Cross Emblem -->
+    <g filter="url(#shadowMask)">
+      <rect x="226" y="146" width="60" height="220" rx="20" fill="url(#crossGradMask)" />
+      <rect x="146" y="226" width="220" height="60" rx="20" fill="url(#crossGradMask)" />
+    </g>
+
+    <!-- Golden Center Spark -->
+    <circle cx="256" cy="256" r="24" fill="#0d9488" />
+    <path d="M256 240 L260 252 L272 256 L260 260 L256 272 L252 260 L240 256 L252 252 Z" fill="#facc15" />
+    
+    <!-- Pulse Wave Line underneath -->
+    <path d="M166 330 L206 330 L220 310 L236 350 L256 295 L276 345 L292 320 L306 330 L346 330" 
+          fill="none" stroke="#2dd4bf" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "NurseSphere - Nursing Education & Virtual OT Suite",
+  "short_name": "NurseSphere",
+  "description": "Comprehensive B.Sc Nursing education platform with full INC syllabus coverage, interactive textbook modules, Virtual Reality Operating Theatre and Labor Room simulations, dynamic AI clinical quizzes, Excel topic and flowchart parser, clinical presentation maker, and always-on AI preceptor.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0d9488",
+  "background_color": "#042f2e",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

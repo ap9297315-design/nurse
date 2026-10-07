@@ -1,0 +1,6 @@
+{
+  "name": "NurseSphere - Nursing Education & Virtual OT Suite",
+  "description": "Comprehensive B.Sc Nursing education platform with full INC syllabus coverage, interactive textbook modules, Virtual Reality Operating Theatre and Labor Room simulations, dynamic AI clinical quizzes, Excel topic and flowchart parser, clinical presentation maker, and always-on AI preceptor.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
